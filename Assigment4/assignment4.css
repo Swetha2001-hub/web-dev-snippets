@@ -1,0 +1,157 @@
+body {
+        background-image: url('images/liquid-cheese(2).png'); 
+        background-size: cover;  
+        background-position: center center; 
+        background-repeat: no-repeat;  
+        background-attachment: fixed;  
+        margin: 0;
+        padding: 0;
+    }
+
+
+h2{
+    text-align: center;
+}
+
+.menu {
+    text-align: center;
+    margin: 20px 0;
+}
+
+
+.menu ul {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+}
+
+
+.menu li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+
+.menu a {
+    text-decoration: none;
+    color: #000; 
+    font-weight: bold;
+    font-size: 15px;
+}
+
+
+.menu a:hover {
+    color: #007BFF;
+}
+
+.hero-image-container {
+    text-align: center; 
+    margin-top: 20px;
+
+}
+
+
+.hero-image {
+    width: 200px; 
+    height: 200px;
+    border-radius: 50%; 
+    border: 10px solid white; 
+    object-fit: cover; 
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); 
+    display: block; 
+    margin: 0 auto; 
+    background-color: white;
+}
+.form-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+
+input[type="text"] {
+    border: none; 
+    border-bottom: 2px solid #000; 
+    outline: none; 
+    background-color: transparent; 
+    font-size: 16px; 
+    padding: 5px 0; 
+    
+}
+
+
+input[type="text"]:focus {
+    border-bottom: 2px solid #007bff; 
+}
+
+
+input[type="password"] {
+    border: none; 
+    border-bottom: 2px solid #000; 
+    outline: none; 
+    background-color: transparent; 
+    font-size: 16px; 
+    padding: 5px 0; 
+    
+
+
+input[type="password"]:focus {
+    border-bottom: 2px solid #007bff; 
+}
+
+
+
+
+
+
+
+.checkbox-container {
+    text-align: left;
+    margin-top: 15px;
+    font-size: 14px; 
+}
+
+
+.checkbox-container input {
+    margin-right: 10px; 
+}
+
+
+
+.forgot-password-link {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.forgot-password-link a {
+    color: black; 
+    font-size: 14px; 
+    text-decoration: none; 
+}
+
+.forgot-password-link a:hover {
+    text-decoration: underline; 
+}
+
+
+}
+.hero-image-container #f{
+   
+margin-top:15px;
+color:black;
+font-size: 18px;
+background-color: white;
+padding:10px 130px;
+box-shadow:6px 6px;
+}
+
+.hero-image-container #c{
+    margin-top:15px;
+    color:white;
+    font-size: 18px;
+    background-color: black;
+    padding:10px 130px;
+    box-shadow: 10px 10px; 
+
+}

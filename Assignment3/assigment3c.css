@@ -1,0 +1,254 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color:rgb(144, 144, 223);
+}
+
+.header {
+    background-color:darkblue;
+    color: white;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.hero p{
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;  
+}
+
+.hero-content p
+ {
+    font-size: 18px;
+    margin-top: 10px; 
+ }
+
+/* Logo Style */
+.logo a {
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    font-size: 5px;
+}
+
+.menu ul li {
+    margin: 0 15px; 
+}
+
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.menu ul li a:hover {
+    text-decoration: underline; 
+}
+
+
+.actions ul {
+    display: flex;
+    list-style: none;
+    font-size: 5px;
+}
+
+.actions ul li {
+    margin: 0 15px; 
+
+}
+.actions ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.actions ul li a:hover {
+    text-decoration: underline; 
+}
+
+.cta-button {
+    background-color:blue;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+}
+
+.cta-button:hover {
+    background-color:lightblue;
+}
+
+.about {
+    background-color:rgb(71, 71, 199); 
+    border: 1px solid rgb(71, 71, 199);    
+    border-radius: 10px;       
+    padding: 20px;             
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  
+    margin: 20px auto;         
+    max-width: 800px;   
+    color: white;       
+}
+
+.about h2 {
+    font-size: 24px;
+    margin-bottom: 10px;       
+}
+
+.about p {
+    font-size: 16px;
+    line-height: 1.5;          
+}
+
+
+.services {
+    background-color:rgb(71, 71, 199); 
+    border: 8px solid rgb(71, 71, 199);    
+    border-radius: 10px;     
+    padding: 20px;             
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    margin: 20px auto;         
+    max-width: 800px;         
+    color:white;
+}
+
+.services h2 {
+    font-size: 24px;
+    margin-bottom: 15px;       
+}
+
+.services ul {
+    list-style: none;          
+    padding: 0;
+}
+
+.services ul li {
+    font-size: 16px;
+    margin-bottom: 10px;       
+}
+
+.services ul li strong {
+    font-weight: bold;         
+}
+
+.contact {
+    background-color:rgb(71, 71, 199); 
+    border: 1px solid rgb(71, 71, 199);    
+    border-radius: 10px;       
+    padding: 20px;             
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    margin: 20px auto;         
+    max-width: 800px;          
+    color:white;
+}
+
+.contact h2 {
+    font-size: 24px;
+    margin-bottom: 15px;       
+}
+
+.contact p {
+    font-size: 16px;
+    line-height: 1.5;          
+}
+
+
+
+
+
+
+  .hero {
+    background-color: rgb(144, 144, 223); 
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .hero-content {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .hero-image-container {
+    position: relative;
+    width: 100%;  /* Container takes the full width */
+    height: 400px; /* Define the height for the rectangular container */
+    background-color:none;  /* Optional background color for visibility */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-image {
+    width: 50%;      /* Set the image to take the full width of its container */
+    height: 80%;     /* Set the image height to 100% of the container */
+    object-fit: contain; /* Ensure the entire image fits within the container */
+    object-position: center center; /* Center the image within the container */
+    border-radius: 0;  /* Make sure no rounded corners */
+}
+
+  .cta-button {
+    background-color:rgb(1, 1, 95);
+    padding: 10px 10px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 1px;
+    display: inline-block;
+    margin-top: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .hero-image {
+      width: 100%;  
+      max-width: 300px;  
+    }
+  }
+
+
+  footer {
+    background-color:darkblue; 
+    color: white; 
+    text-align: center; 
+    padding: 10px 0; 
+    position: relative; 
+    bottom: 0; 
+    width: 100%; 
+    margin-top: 20px; 
+}
+
+footer p {
+    margin: 0; 
+    font-size: 14px; 
+}
+
+  
+  
+  
