@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="Assignment6.css">
+
+</head>
+<body>
+    <h2><b>Click the Button to Celebrate!</b></h2>
+    
+    <button type="button" id="c" onclick="showMsg()">Celebrate!&#x1F389;</button>
+
+    
+    <p id="demo"></p>
+
+    <script>
+
+        function showMsg() 
+        
+        {
+            
+            var msg = document.getElementById('demo');
+            msg.innerHTML = '🎊Happy New Year🎊'; 
+            msg.style.display = 'block';  
+        
+        }
+
+    </script>
+</body>
+</html>

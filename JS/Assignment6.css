@@ -1,0 +1,27 @@
+body {
+    background-image:url('liquid-cheese.png');
+    text-align: center;
+}
+#c {
+    background-color: rgb(2, 2, 77);
+    padding: 10px 20px;
+    border: 2px solid #007bff;  
+    color: white;  
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+#demo {
+    margin-top: 20px;
+    background-color: rgb(158, 9, 9);
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    display: none;
+    
+}

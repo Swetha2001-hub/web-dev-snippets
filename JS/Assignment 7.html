@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <title>JS Calculator</title>
+  <link rel="stylesheet" href="Assignment7.css">
+</head>
+<body>
+  <div class="calculator">
+    <input type="text" id="display" class="display" disabled/>
+    <div class="buttons">
+      <button class="button1" onclick="clearScreen()">AC</button>
+      <button class="button1" onclick="deleteLast()">DEL</button>
+      <button class="button1" onclick="appendToDisplay('/')">/</button>
+      <button class="button1" onclick="appendToDisplay('*')">*</button>
+
+      <button class="button" onclick="appendToDisplay('7')">7</button>
+      <button class="button" onclick="appendToDisplay('8')">8</button>
+      <button class="button" onclick="appendToDisplay('9')">9</button>
+      <button class="button1" onclick="appendToDisplay('-')">-</button>
+
+      <button class="button" onclick="appendToDisplay('4')">4</button>
+      <button class="button" onclick="appendToDisplay('5')">5</button>
+      <button class="button" onclick="appendToDisplay('6')">6</button>
+      <button class="button1" onclick="appendToDisplay('+')">+</button>
+
+      <button class="button" onclick="appendToDisplay('1')">1</button>
+      <button class="button" onclick="appendToDisplay('2')">2</button>
+      <button class="button" onclick="appendToDisplay('3')">3</button>
+      <button class="button1" id="b" onclick="calculateResult()">=</button>
+
+      <button class="button" id="a" onclick="appendToDisplay('0')">0</button>
+      <button class="button" onclick="appendDot()">.</button>
+    </div>
+  </div>
+
+  <script src="Assigment7.js"></script>
+</body>
+</html>
