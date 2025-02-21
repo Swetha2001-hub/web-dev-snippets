@@ -6,6 +6,7 @@ class ShoppingCart
       "apple"  => { up: 0.89, sq: nil, sp: nil }
     }
   
+    
     def initialize(items)
       @items = items
       @item_count = items.tally
@@ -16,7 +17,7 @@ class ShoppingCart
     def calculate_total_cost
       puts "\nItem       Quantity    Price"
       puts "------------------------------"
-    
+              
       @item_count.each do |item, quantity|
         if P.key?(item)
           up, sq, sp = P[item].values_at(:up, :sq, :sp)
@@ -35,7 +36,10 @@ class ShoppingCart
   
           @total_cost += item_price
           puts "#{item.capitalize.ljust(10)} #{quantity.to_s.ljust(10)} #{'%.2f' % item_price}"
+        else
+          puts "NO ITEM"
         end
+        
       end
       puts "------------------------------"
       puts "\nTotal price : $#{'%.2f' % @total_cost}"
